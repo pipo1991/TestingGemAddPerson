@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>App</title>
+		<%= stylesheet_link_tag    "application", media: "all" %>
+		<%= javascript_include_tag "application" %>
+		<%= csrf_meta_tags %>
+	</head>
+	<body>
+
+		<header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner">
+			<div class="container">
+				<div class="navbar-header">
+					<a href="../" class="navbar-brand">Adding Person to your Highrise</a>
+				</div>
+			</div>
+		</header>
+		<div class="container">
+			<%= yield %>
+		</div>
+	</body>
+</html>
