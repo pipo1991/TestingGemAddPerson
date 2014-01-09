@@ -3,13 +3,13 @@ This a simple app for testing the gem 'person-add'
 
 You need before deploying the app to 
 
-  'bundle'
+  bundle
   
 all the gems to update Gemfile.lock
 
 And run 
 
-  'rake db:migrate'
+  rake db:migrate
   
 to migrate database
 
