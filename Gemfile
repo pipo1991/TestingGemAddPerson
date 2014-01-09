@@ -32,7 +32,7 @@ group :doc do
   gem 'sdoc', require: false
 end
 
-gem 'person-add'
+gem 'person-add', :git => 'git@github.com:pipo1991/person_add_highrise.git'
 gem 'curb'
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
 gem 'activerecord-session_store', github: 'rails/activerecord-session_store'
